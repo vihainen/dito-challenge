@@ -48,7 +48,7 @@ It may be run on another endpoints as specified below.
 
 ## Running ##
 
-This supposes you have [https://www.docker.com/](docker) and [https://www.postgresql.org/](postgres) installed, and have created an empty database. I also recommend to configure pgsql to allow for free port access to avoid running into any problems of that kind.
+This supposes you have [docker](https://www.docker.com/) and [postgres](https://www.postgresql.org/) installed, and have created an empty database. I also recommend to configure pgsql to allow for free port access to avoid running into any problems of that kind.
 
 You first need to build the docker image. The `build.sh` file facilitates this process, so you just need to run it, optionally specifying a version parameter (that defaults to "latest" if not passed).
 e.g.:
